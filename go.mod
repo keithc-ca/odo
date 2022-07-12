@@ -30,10 +30,11 @@ require (
 	github.com/onsi/gomega v1.19.0
 	github.com/openshift/api v0.0.0-20220124143425-d74727069f6f
 	github.com/openshift/client-go v0.0.0-20211209144617-7385dd6338e3
+	github.com/openshift/oc v0.0.0-alpha.0.0.20220402064836-f1f09a392fd1
 	github.com/operator-framework/api v0.14.1-0.20220413143725-33310d6154f3
 	github.com/operator-framework/operator-lifecycle-manager v0.21.2
-	github.com/pborman/uuid v1.2.0
-	github.com/posener/complete v1.1.1
+	github.com/pborman/uuid v1.2.1
+	github.com/posener/complete v1.2.3
 	github.com/redhat-developer/alizer/go v0.0.0-20220530162645-f27a60be88a1
 	github.com/redhat-developer/service-binding-operator v1.0.1-0.20211222115357-5b7bbba3bfb3
 	github.com/sabhiram/go-gitignore v0.0.0-20210923224102-525f6e181f06
@@ -48,12 +49,12 @@ require (
 	gopkg.in/AlecAivazis/survey.v1 v1.8.8
 	gopkg.in/segmentio/analytics-go.v3 v3.0.0-00010101000000-000000000000
 	gopkg.in/yaml.v2 v2.4.0
-	k8s.io/api v0.23.2
-	k8s.io/apimachinery v0.23.2
+	k8s.io/api v0.24.2
+	k8s.io/apimachinery v0.24.2
 	k8s.io/cli-runtime v0.23.2
 	k8s.io/client-go v0.23.2
 	k8s.io/klog v1.0.0
-	k8s.io/klog/v2 v2.40.1
+	k8s.io/klog/v2 v2.60.1
 	k8s.io/kubectl v0.23.2
 	k8s.io/utils v0.0.0-20220210201930-3a6ce19ff2f9
 	sigs.k8s.io/controller-runtime v0.11.1
@@ -107,6 +108,7 @@ require (
 	github.com/golang/groupcache v0.0.0-20210331224755-41bb18bfe9da // indirect
 	github.com/golang/protobuf v1.5.2 // indirect
 	github.com/google/btree v1.0.1 // indirect
+	github.com/google/gnostic v0.5.7-v3refs // indirect
 	github.com/google/go-cmp v0.5.6 // indirect
 	github.com/google/gofuzz v1.2.0 // indirect
 	github.com/google/licensecheck v0.3.1 // indirect
@@ -147,7 +149,6 @@ require (
 	github.com/opencontainers/go-digest v1.0.0 // indirect
 	github.com/opencontainers/image-spec v1.0.2-0.20190823105129-775207bd45b6 // indirect
 	github.com/openshift/library-go v0.0.0-20220210170159-18f172cff934 // indirect
-	github.com/openshift/oc v0.0.0-alpha.0.0.20220402064836-f1f09a392fd1
 	github.com/peterbourgon/diskv v2.0.1+incompatible // indirect
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
@@ -190,7 +191,7 @@ require (
 	k8s.io/apiextensions-apiserver v0.23.0 // indirect
 	k8s.io/apiserver v0.23.2 // indirect
 	k8s.io/component-base v0.23.2 // indirect
-	k8s.io/kube-openapi v0.0.0-20211115234752-e816edb12b65 // indirect
+	k8s.io/kube-openapi v0.0.0-20220328201542-3ee0da9b0b42 // indirect
 	oras.land/oras-go v0.4.0 // indirect
 	sigs.k8s.io/json v0.0.0-20211208200746-9f7c6b3444d2 // indirect
 	sigs.k8s.io/kustomize/api v0.10.1 // indirect
